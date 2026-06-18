@@ -33,7 +33,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           platforms: linux/amd64,linux/arm64
-          context: can_mqtt_bridge
+          context: .
           push: true
           # tags: ghcr.io/${{ github.repository }}:latest # Example tag
           tags: ghcr.io/srgk/lara:latest # Example tag
