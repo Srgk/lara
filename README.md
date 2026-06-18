@@ -1,1 +1,1 @@
-Docker image php+compose+laravel
+Docker image php+compose+laravel(installer)
